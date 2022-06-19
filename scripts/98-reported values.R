@@ -160,5 +160,5 @@ Births.lost.US.12to55.2010to2019.cause.specific %>%
 #projection accuracy
 round(sum(Births.US.12to55.2010to2019.observed)-sum(Births.US.2010to2019$Births), 0)
 
-round((sum(Births.US.2010to2019$Births)-sum(Births.US.12to55.2010to2019.observed))/
-        sum(Births.US.2010to2019$Births), 4)
+round((sum(Births.US.12to55.2010to2019.observed)-sum(Births.US.2010to2019$Births))/
+        sum(Births.US.2010to2019$Births)*100, 2)
