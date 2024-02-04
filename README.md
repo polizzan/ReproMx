@@ -1,3 +1,7 @@
+[![doi](https://img.shields.io/badge/DOI-10.17605/OSF.IO/Z5DJB-blue)][doi]
+
+[doi]: https://doi.org/10.17605/OSF.IO/Z5DJB
+
 # The impact of early death on birth counts in the United States, 1950&ndash;2019 
 
 ## Purpose of this Repository
