@@ -405,17 +405,11 @@ indirect.missing <-
       unname()
     
     ## adjust survivorship ratios
-    for(j in 1:dim(Sx.f.cf)[2]){
+    Sx.f.cf[1,] <- 0    
+    ## male and female children of missing americans
+    ## do not survive to have children of their own
+    ## i.e., only missing americans in second generation are considered
 
-      i <- ifelse(j < dim(Sx.f.cf)[1], j, dim(Sx.f.cf)[1]) 
-    
-      ## male and female children of missing americans
-      ## do not survive to have children of their own
-      ## i.e., only missing americans in second generation are considered
-      Sx.f.cf[c(1:i), j] <- 0
-  
-    }  
-    
     Sx.m <- ## male survival probabilities: female-dominant projection
       mig.f <- ## female migration: closed projection
       mig.m <- ## male migration: closed projection
