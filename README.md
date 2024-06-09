@@ -7,7 +7,7 @@
 ## Purpose of this Repository
 The repository **ReproMx** was created to enable the replication of findings reported in:
 
-*The impact of early death on birth counts in the United States, 1950&ndash;2019*,
+Polizzi, A., & Tilstra, A. M. (2024). The impact of early death on birth counts in the United States, 1950 to 2019. *PNAS Nexus*, 3(6). https://doi.org/10.1093/pnasnexus/pgae058
 
 hereafter *our manuscript*.
 
